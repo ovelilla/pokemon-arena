@@ -27,7 +27,7 @@ const AppLayout = () => {
     <div className="flex w-full flex-1 flex-col bg-[var(--main-background)]">
       <header className="sticky top-0 z-30 flex h-20 shrink-0 justify-center bg-[var(--header-background)] backdrop-blur-md">
         <div className="flex w-full max-w-[var(--maxWidth)] flex-1 items-center justify-between px-4">
-          <a href="/" className="flex items-center">
+          <Link to="/" className="flex items-center">
             <img
               alt="Logo"
               className="h-12"
@@ -36,7 +36,7 @@ const AppLayout = () => {
               src={logo}
               width="130"
             />
-          </a>
+          </Link>
 
           <div
             className={cn(
