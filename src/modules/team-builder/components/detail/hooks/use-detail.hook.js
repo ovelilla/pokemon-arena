@@ -84,7 +84,9 @@ const useDetail = () => {
     pokemonEvolutionChainIsError ||
     pokemonEvolutionsIsError;
 
-  useScrollLock();
+  useScrollLock({
+    autoLock: isOpen,
+  });
 
   return {
     close,
