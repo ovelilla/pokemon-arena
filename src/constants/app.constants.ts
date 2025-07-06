@@ -1,0 +1,43 @@
+const TYPE_BG_CLASSES = {
+  bug: "bg-[var(--bug)]",
+  dark: "bg-[var(--dark)] text-white",
+  dragon: "bg-[var(--dragon)] text-white",
+  electric: "bg-[var(--electric)]",
+  fairy: "bg-[var(--fairy)]",
+  fighting: "bg-[var(--fighting)] text-white",
+  fire: "bg-[var(--fire)]",
+  flying: "bg-[var(--flying)]",
+  ghost: "bg-[var(--ghost)] text-white",
+  grass: "bg-[var(--grass)]",
+  ground: "bg-[var(--ground)] text-white",
+  ice: "bg-[var(--ice)]",
+  normal: "bg-[var(--normal)] text-white",
+  poison: "bg-[var(--poison)] text-white",
+  psychic: "bg-[var(--psychic)]",
+  rock: "bg-[var(--rock)]",
+  steel: "bg-[var(--steel)] text-white",
+  water: "bg-[var(--water)] text-white",
+};
+
+const TYPE_MUTED_CLASSES = {
+  bug: "bg-[var(--bug-muted)]",
+  dark: "bg-[var(--dark-muted)] text-white",
+  dragon: "bg-[var(--dragon-muted)] text-white",
+  electric: "bg-[var(--electric-muted)]",
+  fairy: "bg-[var(--fairy-muted)]",
+  fighting: "bg-[var(--fighting-muted)] text-white",
+  fire: "bg-[var(--fire-muted)]",
+  flying: "bg-[var(--flying-muted)]",
+  ghost: "bg-[var(--ghost-muted)] text-white",
+  grass: "bg-[var(--grass-muted)]",
+  ground: "bg-[var(--ground-muted)] text-white",
+  ice: "bg-[var(--ice-muted)]",
+  normal: "bg-[var(--normal-muted)] text-white",
+  poison: "bg-[var(--poison-muted)] text-white",
+  psychic: "bg-[var(--psychic-muted)]",
+  rock: "bg-[var(--rock-muted)]",
+  steel: "bg-[var(--steel-muted)] text-white",
+  water: "bg-[var(--water-muted)] text-white",
+};
+
+export { TYPE_BG_CLASSES, TYPE_MUTED_CLASSES };

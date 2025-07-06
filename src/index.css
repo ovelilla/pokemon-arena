@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html,
+body,
+#root {
+  min-height: 100dvh;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#root {
+  display: flex;
+}
+
+:root {
+  --maxWidth: 1536px;
+
+  --black: #000000;
+  --blue: #5090d6;
+  --brown: #c16d40;
+  --gray: #919aa2;
+  --green: #63bc5a;
+  --pink: #ec8fe6;
+  --purple: #b567ce;
+  --red: #dc2626;
+  --white: #ffffff;
+  --yellow: #f4d23c;
+
+  --bug: #91c12f;
+  --dark: #5a5465;
+  --dragon: #0b6dc3;
+  --electric: #f4d23c;
+  --fairy: #ec8fe6;
+  --fighting: #ce416b;
+  --fire: #ff9d55;
+  --flying: #89aae3;
+  --ghost: #5269ad;
+  --grass: #63bc5a;
+  --ground: #c16d40;
+  --ice: #73cec0;
+  --normal: #919aa2;
+  --poison: #b567ce;
+  --psychic: #fa7179;
+  --rock: #c5b78c;
+  --steel: #5a8ea2;
+  --water: #5090d6;
+}
+
+.light {
+  --border: #e2e8f0;
+  --container-background: #f8fafc;
+  --gender-icon-background: #e2e8f0;
+  --ghost-button-background: #f1f5f9;
+  --header-background: #ffffff60;
+  --main-background: #ffffff;
+  --overlay-background: #00000080;
+  --primary-button-background: #1261b6;
+  --search-background: #ffffff;
+  --search-field-background: #f1f5f9;
+  --text-muted: #4a5565;
+  --text-white: #ffffff;
+  --text: #364153;
+
+  --bug-muted: #f1f6e8;
+  --dark-muted: #ecebed;
+  --dragon-muted: #e4eef6;
+  --electric-muted: #fbf8e9;
+  --fairy-muted: #fbf1fa;
+  --fighting-muted: #f8e9ee;
+  --fire-muted: #fcf3eb;
+  --flying-muted: #f1f4fa;
+  --ghost-muted: #ebedf4;
+  --grass-muted: #edf6ec;
+  --ground-muted: #f9efea;
+  --ice-muted: #f1fbf9;
+  --normal-muted: #f1f2f3;
+  --poison-muted: #f5edf8;
+  --psychic-muted: #fceeef;
+  --rock-muted: #f7f5f1;
+  --steel-muted: #ecf1f3;
+  --water-muted: #ebf1f8;
+}
+
+.dark {
+  --border: #475569;
+  --container-background: #1e293b;
+  --gender-icon-background: #475569;
+  --ghost-button-background: #1e293b;
+  --header-background: #0f172a60;
+  --main-background: #0f172a;
+  --overlay-background: #00000080;
+  --primary-button-background: #1261b6;
+  --search-background: #0f172a;
+  --search-field-background: #1e293b;
+  --text-muted: #99a1af;
+  --text-white: #ffffff;
+  --text: #ffffff;
+
+  --bug-muted: #364812;
+  --dark-muted: #312e37;
+  --dragon-muted: #052c4f;
+  --electric-muted: #544813;
+  --fairy-muted: #4d2e4b;
+  --fighting-muted: #471524;
+  --fire-muted: #482b16;
+  --flying-muted: #263042;
+  --ghost-muted: #202944;
+  --grass-muted: #1a3217;
+  --ground-muted: #391f11;
+  --ice-muted: #1f3935;
+  --normal-muted: #313437;
+  --poison-muted: #331d3b;
+  --psychic-muted: #492022;
+  --rock-muted: #403b2d;
+  --steel-muted: #213740;
+  --water-muted: #1b324b;
+}
