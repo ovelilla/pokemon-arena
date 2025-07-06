@@ -18,7 +18,7 @@ const queryClient = new QueryClient();
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <QueryClientProvider client={queryClient}>
-      <BrowserRouter>
+      <BrowserRouter basename="/pokemon-arena">
         <Routes>
           <Route element={<AppLayout />}>
             <Route path="/" element={<TeamBuilderPage />} />
